@@ -1,17 +1,23 @@
-.foto{
-    width: 320px;
-    height: 320px;
+
+    .foto {
+    width: 320px;           /* Tamanho no PC */
+    height: 320px;          /* Tamanho no PC */
+    max-width: 80vw;        /* No celular, não deixa ser maior que 80% da largura da tela */
+    max-height: 80vw;       /* circulo proporcional no cell */
     border-radius: 50%;
-    overflow: hidden;
+    overflow: hidden;       /* corta sobras */
     border: 5px solid #fa6060;
+    margin: 0 auto;         /* para centralizar o circulo na imagem */
+}
 }
 
-.foto {
-    width: 100%;         
-    max-width: 100%;    
-    height: auto;        
-    object-fit: cover;   
-    display: block;  
+
+   .foto  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     
+    display: block;
+} 
 }
 
 
