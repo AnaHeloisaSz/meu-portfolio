@@ -6,7 +6,7 @@
     border: 5px solid #fa6060;
 }
 
-.foto img{
+.foto {
     width: 100%;
     height: 100%;
     object-fit: cover;
